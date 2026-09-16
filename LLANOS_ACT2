@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Black Holes</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            line-height: 1.6; 
+            margin: 20px auto; 
+            max-width: 800px; 
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .page { 
+            background: white; 
+            padding: 20px; 
+            margin-bottom: 40px; 
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+        img { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+            margin: 10px 0;
+        }
+        nav { 
+            background: #2c3e50; 
+            padding: 15px; 
+            border-radius: 5px; 
+            color: white;
+        }
+        nav a { color: #18bc9c; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .button { color: blue; text-decoration: underline; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <p><strong>Menu:</strong> 
+        <a href="#page1">Page 1: Intro</a> | 
+        <a href="#page2">Page 2: Formation</a> | 
+        <a href="#page3">Page 3: Fun Facts</a>
+        </p>
+    </nav>
+    <br>
+
+    <!-- PAGE 1: Introduction -->
+    <div id="page1" class="page">
+        <h1>Page 1: What is a Black Hole?</h1>
+        <h2>The Ultimate Cosmic Vacuum</h2>
+        
+        <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=800&q=80" alt="Space and Black hole concept">
+        
+        <p>Imagine a place in space where gravity pulls so incredibly hard that absolutely nothing can escape from it. Not even light! Because no light can bounce off of it or escape it, human eyes and regular telescopes can't see black holes. They are completely invisible.</p>
+        <br>
+        <p>Scientists know they exist because they can see how the strong gravity of a black hole affects the stars and gas around it. If a star is orbiting a certain point in space very fast but there's nothing visible there, scientists can figure out a black hole is hiding in the dark.</p>
+        
+        <a href="#page2" class="button">Read Next: How do they form?</a>
+        <hr>
+    </div>
+
+    <!-- PAGE 2: Formation -->
+    <div id="page2" class="page">
+        <h3>Page 2: How Are Black Holes Formed?</h3>
+        
+        <p>Black holes aren't just born out of nowhere. Most of the time, they are the ghosts of massive stars. Here is the step-by-step process of how a "Stellar" black hole is made:</p>
+        
+        <!-- Ordered List (ol) -->
+        <ol>
+            <li>A very massive star (much bigger than our Sun) runs out of nuclear fuel to burn.</li>
+            <li>Without the outward push of nuclear energy, the star can no longer fight its own heavy gravity.</li>
+            <li>The star's core collapses inward at extreme speeds.</li>
+            <li>The outer layers explode violently into space in an event called a <strong>Supernova</strong>.</li>
+            <li>The crushed, leftover core packs so much mass into such a tiny space that it rips the fabric of space and time, becoming a black hole!</li>
+        </ol>
+        
+        <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=800&q=80" alt="Stars in space">
+        
+        <p>Don't worry about Earth! Our Sun is too small to ever become a black hole. When it dies billions of years from now, it will just become a quiet white dwarf star.</p>
+        
+        <a href="#page3" class="button">Read Next: Fun Facts</a>
+        <hr>
+    </div>
+
+    <!-- PAGE 3: Fun Facts -->
+    <div id="page3" class="page">
+        <h4>Page 3: Cool and Creepy Facts</h4>
+        
+        <p>Black holes challenge everything we know about physics. Here are some mind-bending facts:</p>
+        
+        <h5>Fact 1: Spaghettification</h5>
+        <p>If you were somehow unlucky enough to fall feet-first into a black hole, the gravity pulling on your feet would be millions of times stronger than the gravity pulling on your head. You would be stretched out like a long noodle. Scientists actually call this <em>Spaghettification</em>!</p>
+        <br>
+        
+        <h6>Fact 2: Supermassive Monsters</h6>
+        <p>There are "Stellar" black holes, and then there are "Supermassive" black holes. These giants are millions or billions of times heavier than our Sun. Astronomers believe there is a supermassive black hole sitting at the very center of almost every large galaxy, including our own Milky Way galaxy!</p>
+        
+        <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?auto=format&fit=crop&w=800&q=80" alt="Galaxy center">
+        <br><br>
+        
+        <a href="#page1" class="button">Back to the Beginning</a>
+    </div>
+
+</body>
+</html>
