@@ -1,1 +1,30 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Autobiography</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+
+
+    <h1>[Your Full Name]</h1>
+    <h2>Autobiography</h2>
+    <h3>My Motto</h3>
+    <h4>[Insert your motto here]</h4>
+    <h5>My Picture</h5>
+    <h6>Welcome to my page</h6>
+
+    <img src="your-picture.jpg" alt="My Picture" width="300">
+
+    <br> 
+    <br>
+
+    <p>Hello! My name is John Gabriel. This is my simple autobiography website.</p>
+
+</body>
+</html>
