@@ -7,28 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    
-    <a href="index.html">Home</a> | 
-    <a href="shs_days.html">SHS Days</a> | 
-    <a href="about.html">About Me</a>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="shs_days.html">SHS Days</a> |
+        <a href="about.html">About Me</a>
+    </nav>
 
     <hr>
 
-    <h2>My SHS Days</h2>
+    <main>
+        <h2>My SHS Days</h2>
 
-   
-    <p>My Senior High School days were full of memorable moments. I learned a lot and met new friends.</p>
+        <p>My Senior High School days were full of memorable moments. I learned a lot and met new friends.</p>
 
-  
-    <img src="shs-picture.jpg" alt="SHS Memory" width="400">
+        <img src="shs-picture.jpg" alt="SHS memory" width="400">
 
-    <br><br>
+        <br><br>
 
-    <p>Here is another memory from my SHS days.</p>
-    
-   
-    <img src="shs-picture2.jpg" alt="Another SHS Memory" width="400">
+        <p>Here is another memory from my SHS days.</p>
 
+        <img src="shs-picture2.jpg" alt="Another SHS memory" width="400">
+    </main>
 </body>
 </html>
