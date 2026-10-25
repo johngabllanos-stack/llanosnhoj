@@ -3,28 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Autobiography</title>
-    
+    <title>John Gabriel | Autobiography</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="hero">
+        <h1>John Gabriel</h1>
+        <p class="subtitle">Autobiography</p>
+    </header>
 
-  
+    <main>
+        <section class="profile">
+            <div class="intro-text">
+                <h2>About Me</h2>
+                <p>
+                    Hello! My name is John Gabriel, and this is my simple autobiography website.
+                    I am passionate about learning, growing, and building meaningful experiences
+                    in life and work.
+                </p>
 
+                <h3>My Motto</h3>
+                <blockquote>"Work hard, stay humble, and keep growing."</blockquote>
+            </div>
 
-    <h1>[Your Full Name]</h1>
-    <h2>Autobiography</h2>
-    <h3>My Motto</h3>
-    <h4>[Insert your motto here]</h4>
-    <h5>My Picture</h5>
-    <h6>Welcome to my page</h6>
+            <div class="photo">
+                <h3>My Picture</h3>
+                <img src="your-picture.jpg" alt="John Gabriel portrait" width="300">
+            </div>
+        </section>
 
-    <img src="your-picture.jpg" alt="My Picture" width="300">
+        <section class="story">
+            <h2>My Story</h2>
+            <p>
+                I am a person who believes in personal growth, determination, and continuous learning.
+                Every day is an opportunity to improve myself, overcome challenges, and become a better version of who I am.
+            </p>
+            <p>
+                Through life, I have learned that success is not only about achievements, but also
+                about discipline, kindness, and the way we treat the people around us.
+            </p>
+        </section>
 
-    <br> 
-    <br>
+        <section class="values">
+            <h2>What I Value</h2>
+            <ul>
+                <li>Hard work</li>
+                <li>Integrity</li>
+                <li>Learning</li>
+                <li>Kindness</li>
+            </ul>
+        </section>
+    </main>
 
-    <p>Hello! My name is John Gabriel. This is my simple autobiography website.</p>
-
+    <footer>
+        <p>Welcome to my page</p>
+    </footer>
 </body>
 </html>
